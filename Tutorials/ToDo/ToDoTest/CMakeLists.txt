@@ -2,8 +2,6 @@ project(${MY_PROJECT}Test)
 
 
 #dirs should be before add_executable
-include_directories()
-
 
 add_executable(${PROJECT_NAME} ${MY_PROJECT}UnitTest.cc)
 

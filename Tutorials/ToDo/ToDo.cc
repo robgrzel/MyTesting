@@ -4,7 +4,7 @@ using std::cerr;
 using std::cout;
 using std::endl;
 
-#include "ToDoCore/ToDo.h"
+#include "ToDoCore.h"
 
 using ToDoCore::ToDo;
 
@@ -21,7 +21,7 @@ int equalityTest(T1 testValue,
                  const int lineNumber);
 
 
-int main(
+int todo(
 		int /*unused*/,
 		char **/*unused*/
 ) {

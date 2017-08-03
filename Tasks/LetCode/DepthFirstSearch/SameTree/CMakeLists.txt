@@ -1,21 +1,22 @@
-set(MY_PROJECT ToDo)
+set(MP SameTree)
 
-project(${MY_PROJECT})
+project(${MP})
 
 #dirs should be before add_executable
-add_subdirectory(${MY_PROJECT}Core)
-add_subdirectory(${MY_PROJECT}Test)
+add_subdirectory(${MP}Core)
+add_subdirectory(${MP}Test)
 
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/${MY_PROJECT})
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/${MP})
 
-add_executable(${MY_PROJECT}
-        main.cc)
-
-target_link_libraries(${MY_PROJECT}
-        ${MY_PROJECT}Core
+set(SOURCES
+        DepthFirstSearch/SameTree/SameTreeCore/SameTreeCore.cpp
+        DepthFirstSearch/SameTree/SameTreeCore/SameTreeCore.h
         )
 
-add_dependencies(${PROJECT_NAME} ${MY_PROJECT}Test)
+add_executable(${MP} ${SOURCES})
+target_link_libraries(${MP} ${MP}Core)
+
+add_dependencies(${PROJECT_NAME} ${MP}Test)
 
 
 #cmake tests
@@ -25,7 +26,7 @@ add_test(
 )
 
 add_custom_command(
-        TARGET ${MY_PROJECT}
+        TARGET ${MP}
         COMMENT "Show CMake ctests"
         POST_BUILD
         WORKING_DIRECTORY ${CMAKE_BINARY_DIR}
@@ -33,7 +34,7 @@ add_custom_command(
 )
 
 add_custom_command(
-        TARGET ${MY_PROJECT}
+        TARGET ${MP}
         COMMENT "Run CMake ctests"
         POST_BUILD
         WORKING_DIRECTORY ${CMAKE_BINARY_DIR}

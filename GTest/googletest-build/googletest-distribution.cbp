@@ -5,7 +5,7 @@
 		<Option title="googletest-distribution"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\GTest\;CMake Files\GTest\googletest-src\;CMake Files\GTest\googletest-src\googlemock\;CMake Files\GTest\googletest-src\googletest\;CMake Files\GTest\googletest-src\googletest\cmake\;CMake Files\ToDo\;CMake Files\ToDo\ToDoCore\;CMake Files\ToDo\ToDoTest\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\GTest\;CMake Files\GTest\googletest-src\;CMake Files\GTest\googletest-src\googlemock\;CMake Files\GTest\googletest-src\googletest\;CMake Files\GTest\googletest-src\googletest\cmake\;CMake Files\Tasks\;CMake Files\Tasks\LetCode\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build"/>
@@ -307,26 +307,20 @@
 		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\GTest\googletest-src\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/ToDo/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\ToDo\"/>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/Tasks/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Tasks\"/>
 		</Unit>
-		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/ToDo/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\ToDo\"/>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/Tasks/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Tasks\"/>
 		</Unit>
-		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/ToDo/ToDoCore/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\ToDo\ToDoCore\"/>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/Tasks/LetCode/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Tasks\LetCode\"/>
 		</Unit>
-		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/ToDo/ToDoCore/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\ToDo\ToDoCore\"/>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/Tasks/LetCode/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Tasks\LetCode\"/>
 		</Unit>
-		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/ToDo/ToDoTest/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\ToDo\ToDoTest\"/>
-		</Unit>
-		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/ToDo/ToDoTest/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\ToDo\ToDoTest\"/>
-		</Unit>
-		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/ToDo/ToDoTest/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\ToDo\ToDoTest\"/>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/Tasks/LetCode/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Tasks\LetCode\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

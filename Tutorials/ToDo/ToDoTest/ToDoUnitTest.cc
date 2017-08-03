@@ -1,4 +1,4 @@
-#include "../ToDoCore/ToDo.h"
+#include "ToDoCore.h"
 
 #include <string>
 

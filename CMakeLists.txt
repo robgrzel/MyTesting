@@ -10,6 +10,13 @@ include(CTest)
 
 add_subdirectory(GTest)
 
-add_subdirectory(ToDo)
+set(run-tutorials 0)
+set(run-tasks 1)
 
-add_dependencies(ToDo gtest)
+if (run-tutorials)
+    message(TUTORIALS)
+    add_subdirectory(Tutorials)
+elseif (run-tasks)
+    message(TASKS)
+    add_subdirectory(Tasks)
+endif (run-tutorials)
