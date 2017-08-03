@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-download/CMakeFiles/googletest"
+		},
+		
+		{
+			"file" : "/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-download/CMakeFiles/googletest.rule"
+		},
+		
+		{
+			"file" : "/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-download/CMakeFiles/googletest-complete.rule"
+		},
+		
+		{
+			"file" : "/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-download/googletest-prefix/src/googletest-stamp/googletest-install.rule"
+		},
+		
+		{
+			"file" : "/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-download/googletest-prefix/src/googletest-stamp/googletest-mkdir.rule"
+		},
+		
+		{
+			"file" : "/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-download/googletest-prefix/src/googletest-stamp/googletest-download.rule"
+		},
+		
+		{
+			"file" : "/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-download/googletest-prefix/src/googletest-stamp/googletest-update.rule"
+		},
+		
+		{
+			"file" : "/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-download/googletest-prefix/src/googletest-stamp/googletest-patch.rule"
+		},
+		
+		{
+			"file" : "/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-download/googletest-prefix/src/googletest-stamp/googletest-configure.rule"
+		},
+		
+		{
+			"file" : "/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-download/googletest-prefix/src/googletest-stamp/googletest-build.rule"
+		},
+		
+		{
+			"file" : "/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-download/googletest-prefix/src/googletest-stamp/googletest-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "googletest" ],
+		"name" : "googletest"
+	}
+}

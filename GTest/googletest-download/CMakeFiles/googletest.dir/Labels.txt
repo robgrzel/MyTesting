@@ -1,0 +1,14 @@
+# Target labels
+ googletest
+# Source files and their labels
+/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-download/CMakeFiles/googletest
+/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-download/CMakeFiles/googletest.rule
+/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-download/CMakeFiles/googletest-complete.rule
+/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-download/googletest-prefix/src/googletest-stamp/googletest-install.rule
+/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-download/googletest-prefix/src/googletest-stamp/googletest-mkdir.rule
+/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-download/googletest-prefix/src/googletest-stamp/googletest-download.rule
+/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-download/googletest-prefix/src/googletest-stamp/googletest-update.rule
+/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-download/googletest-prefix/src/googletest-stamp/googletest-patch.rule
+/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-download/googletest-prefix/src/googletest-stamp/googletest-configure.rule
+/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-download/googletest-prefix/src/googletest-stamp/googletest-build.rule
+/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-download/googletest-prefix/src/googletest-stamp/googletest-test.rule

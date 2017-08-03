@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="gmock"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\GTest\;CMake Files\GTest\googletest-src\;CMake Files\GTest\googletest-src\googlemock\;CMake Files\GTest\googletest-src\googletest\;CMake Files\GTest\googletest-src\googletest\cmake\;CMake Files\ToDo\;CMake Files\ToDo\ToDoCore\;CMake Files\ToDo\ToDoTest\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googlemock/include"/>
+					<Add directory="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googlemock"/>
+					<Add directory="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googletest/include"/>
+					<Add directory="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googlemock/include"/>
+					<Add directory="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googlemock"/>
+					<Add directory="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googletest/include"/>
+					<Add directory="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googlemock/include"/>
+					<Add directory="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googlemock"/>
+					<Add directory="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googletest/include"/>
+					<Add directory="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googlemock/include"/>
+					<Add directory="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googlemock"/>
+					<Add directory="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googletest/include"/>
+					<Add directory="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googletest/include"/>
+					<Add directory="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/gtest/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googletest/include"/>
+					<Add directory="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googletest/include"/>
+					<Add directory="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/gtest/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googletest/include"/>
+					<Add directory="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googletest"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-build/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googlemock/src/gmock-all.cc">
+			<Option target="gmock_main"/>
+			<Option target="gmock"/>
+		</Unit>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
+		</Unit>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googletest/src/gtest-all.cc">
+			<Option target="gmock_main"/>
+			<Option target="gmock"/>
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GTest\"/>
+		</Unit>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/GTest.in.cmake">
+			<Option virtualFolder="CMake Files\GTest\"/>
+		</Unit>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GTest\"/>
+		</Unit>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/GTest.in.cmake">
+			<Option virtualFolder="CMake Files\GTest\"/>
+		</Unit>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GTest\googletest-src\"/>
+		</Unit>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GTest\googletest-src\"/>
+		</Unit>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GTest\googletest-src\"/>
+		</Unit>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GTest\googletest-src\googlemock\"/>
+		</Unit>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GTest\googletest-src\googlemock\"/>
+		</Unit>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GTest\googletest-src\googlemock\"/>
+		</Unit>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GTest\googletest-src\googlemock\"/>
+		</Unit>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GTest\googletest-src\googletest\"/>
+		</Unit>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GTest\googletest-src\googletest\"/>
+		</Unit>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GTest\googletest-src\googletest\"/>
+		</Unit>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GTest\googletest-src\googletest\"/>
+		</Unit>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GTest\googletest-src\googletest\"/>
+		</Unit>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\GTest\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\GTest\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\GTest\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\GTest\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/GTest/googletest-src/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\GTest\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/ToDo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ToDo\"/>
+		</Unit>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/ToDo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ToDo\"/>
+		</Unit>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/ToDo/ToDoCore/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ToDo\ToDoCore\"/>
+		</Unit>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/ToDo/ToDoCore/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ToDo\ToDoCore\"/>
+		</Unit>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/ToDo/ToDoTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ToDo\ToDoTest\"/>
+		</Unit>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/ToDo/ToDoTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ToDo\ToDoTest\"/>
+		</Unit>
+		<Unit filename="/mnt/G/MEGASync/Sync/WORK/Proj/MyTesting/ToDo/ToDoTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ToDo\ToDoTest\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
